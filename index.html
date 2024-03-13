@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess My Number!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="title">
+      <h1 id="title">Guess My Number</h1>
+      <p>(0-100)</p>
+    </div>
+    <div id="guesses">
+      <span class="guess"
+        >Guesses left:
+        <span id="guessLeft">5</span>
+      </span>
+    </div>
+    <div class="inputContainer">
+      <input
+        class="input"
+        type="number"
+        id="Number"
+        min="0"
+        max="100"
+        placeholder="Enter A Number"
+      />
+      <button id="confirm">confirm</button>
+    </div>
+    <div class="eventContainer"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
